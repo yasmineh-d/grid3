@@ -1,0 +1,70 @@
+.gridcont {
+  background-color: #b9e5e8;
+  display: grid;
+  width: 90vw;
+  margin: auto;
+  padding: 28px;
+  gap: 20px;
+  border-radius: 10px;
+
+  grid-template-areas:
+    "h h h h"
+    "s1 s2 s2 s3"
+    "s1 s2 s2 s4"
+    "s1 s2 s2 s4"
+    "f f f f";
+}
+.h,
+.s1,
+.s2,
+.s3,
+.s4,
+.s5,
+.s6,
+.s7,
+.f {
+  background-color: #7ab2d3;
+  padding: 20px;
+  border: 3px solid #4a628a;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  align-content: center;
+}
+
+.h {
+  grid-area: h;
+}
+
+.s1 {
+  grid-area: s1;
+}
+
+.s2 {
+  grid-area: s2;
+}
+
+.s3 {
+  grid-area: s3;
+}
+
+.s4 {
+  grid-area: s4;
+}
+
+.s5 {
+  grid-area: s5;
+}
+
+.s6 {
+  grid-area: s6;
+}
+
+.s7 {
+  grid-area: s7;
+}
+
+.f {
+  grid-area: f;
+}
